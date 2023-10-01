@@ -58,8 +58,10 @@
       <!-- main section -->
       <section class="hero">
         <div class="container hero-container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button">Order Service</button>
+          <div class="thumb">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button class="hero-btn" type="button">Order Service</button>
+          </div>
         </div>
       </section>
       <!-- section 2 -->
@@ -349,12 +351,21 @@
           <h2 class="oportfolio-main-title">Our portfolio</h2>
           <ul class="oportfolio-list">
             <li class="oportfolio-item">
-              <img
-                class="oportfolio-loved"
-                src="./images/our-portfolio/banking-app.jpg"
-                alt="app for banking"
-                width="360"
-              />
+              <div class="oportfolio-overlay">
+                <img
+                  class="oportfolio-loved"
+                  src="./images/our-portfolio/banking-app.jpg"
+                  alt="app for banking"
+                  width="360"
+                />
+                <div class="overlay-wrap">
+                  <p class="overlay-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="oportfolio-description">
                 <h3 class="oportfolio-title">Banking App</h3>
                 <p class="oportfolio-main-text">App</p>
@@ -446,13 +457,56 @@
     </main>
     <footer class="foot-section">
       <div class="container footer-container">
-        <a class="foot-logo-link link" href="./index.html">
-          Web<span class="logo-lightcolor">Studio</span></a
-        >
-        <p class="foot-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="foot-logo-wrapper">
+          <a class="foot-logo-link link" href="./index.html">
+            Web<span class="logo-lightcolor">Studio</span></a
+          >
+          <p class="foot-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="foot-social-wrapper">
+          <h3 class="foot-social-title">Social media</h3>
+          <ul class="foot-social-list">
+            <li class="foot-social-item">
+              <div class="foot-soc-icons">
+                <a class="icon-link link" href="">
+                  <svg class="soc-icon icon-instagram" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="foot-social-item">
+              <div class="foot-soc-icons">
+                <a class="icon-link link" href="">
+                  <svg class="soc-icon icon-twitter" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="foot-social-item">
+              <div class="foot-soc-icons">
+                <a class="icon-link link" href="">
+                  <svg class="soc-icon icon-facebook" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="foot-social-item">
+              <div class="foot-soc-icons">
+                <a class="icon-link link" href="">
+                  <svg class="soc-icon icon-linkedin" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
