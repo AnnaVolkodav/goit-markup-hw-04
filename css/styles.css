@@ -37,7 +37,7 @@ img {
 /*!HEADER SECTION */
 .header-section {
   padding: 24px 15px;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -72,6 +72,15 @@ img {
   display: flex;
   gap: 40px;
 }
+
+/* .navigation-item .nav-link:hover::after {
+  width: 48px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #404bbf;
+} */
+
 .nav-link {
   color: #2e2f42;
   font-family: inherit;
@@ -122,6 +131,12 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/bg-hero-image.jpg);
 }
 
 .hero-title {
@@ -159,7 +174,6 @@ img {
   background-color: #404bbf;
 }
 
-
 /*!SECTION 2 - hidden title*/
 .visually-hidden {
   position: absolute;
@@ -190,6 +204,20 @@ img {
   align-self: auto;
 }
 
+.icon-item {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 100px;
+}
+
+.icon {
+  fill: currentColor;
+}
+
 .purpose-title {
   color: #2e2f42;
   font-size: 20px;
@@ -205,6 +233,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 
 /*!SECTION 3 - OUR TEAM*/
 .oteam {
@@ -230,7 +259,7 @@ img {
 
 .oteam-item {
   background-color: #ffffff;
-  
+
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
@@ -242,7 +271,6 @@ img {
 .oteam-description {
   padding: 32px 0;
   text-align: center;
-  
 }
 .our-team-title {
   color: #2e2f42;
@@ -259,6 +287,30 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.icons-list-oteam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  /* margin: 0 auto; */
+}
+
+.icons-oteam {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.icons-oteam:hover,
+.icons-oteam:focus {
+  background-color: #404bbf;
+}
+
+.icon-link-oteam {
+  fill: #f4f4fd;
+}
+
 
 /*! SECTION 4 */
 .oportfolio-section {
@@ -289,7 +341,7 @@ img {
 
 .oportfolio-description {
   padding: 32px 16px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
