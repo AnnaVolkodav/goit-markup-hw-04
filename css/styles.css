@@ -545,8 +545,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover,
-.icon-link:focus {
+.foot-icon-link:hover,
+.foot-icon-link:focus {
   background-color: #31d0aa;
 }
 
