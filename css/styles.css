@@ -184,10 +184,15 @@ img {
   background-size: cover;
 }
 
-.thumb {
+.hero-container {
   width: 100%;
   object-fit: cover;
 }
+
+/* .thumb {
+  width: 100%;
+  object-fit: cover;
+} */
 
 .hero-title {
   color: #ffffff;
