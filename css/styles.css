@@ -81,7 +81,7 @@ img {
   gap: 40px;
 }
 
-.navigation-item {
+.header-navigation-list .navigation-item {
   position: relative;
 }
 
