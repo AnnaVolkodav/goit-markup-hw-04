@@ -73,10 +73,6 @@ img {
   color: #2e2f42;
 }
 
-.header-navigation {
-  /* display: flex; */
-}
-
 .header-navigation-list {
   display: flex;
   gap: 40px;
