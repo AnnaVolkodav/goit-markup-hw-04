@@ -97,7 +97,7 @@ img {
   color: #404bbf;
 }
 
-.header-navigation-list .navigation-item {
+.nav-item-current {
   position: relative;
 }
 
