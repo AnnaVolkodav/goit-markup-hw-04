@@ -595,19 +595,18 @@ img {
   width: 408px;
   height: 584px;
   margin: 0 auto; */
-  /* position: fixed;
+/* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; */
-
 
 .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #2E2F4266;
+  background-color: #2e2f4266;
 }
 
 .modal {
@@ -624,5 +623,13 @@ img {
 }
 
 .modal-close-btn {
-  background-color
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  /* padding: 8px; */
+}
+
+.modal-btn-icon {
+  fill: #2e2f42;
 }
