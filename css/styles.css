@@ -583,6 +583,74 @@ img {
   fill: #f4f4fd;
 }
 
+/*?====FOOTER FORM==== */
+.footer-form {
+}
+
+.foot-form {
+  display: flex;
+  gap: 24px;
+}
+
+.foot-input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-label {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.foot-form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  outline: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.foot-form-input::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.foot-btn-form {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+}
+
+.foot-icon-form {
+  margin-left: 16px;
+  fill: #ffffff;
+  background-color: #4d5ae5;
+}
+
 /*!====BACKDROP==== */
 
 /* .modal-backdrop {
