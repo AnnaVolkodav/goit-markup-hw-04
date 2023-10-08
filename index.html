@@ -58,10 +58,8 @@
       <!-- main section -->
       <section class="hero">
         <div class="container hero-container">
-          
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button class="hero-btn" type="button">Order Service</button>
-          
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
       <!-- section 2 -->
@@ -472,7 +470,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <div class="modal-field">
           <button class="modal-close-btn" type="button">
@@ -485,34 +483,73 @@
         <form class="modal-form">
           <div class="modal-field-input">
             <label for="user-name" class="modal-label">Name</label>
-              <div class="field-icon">
-                <input type="text" name="user-name" class="modal-input" id="user-name" />
-                <svg class="modal-input-icon" width="18" height="18">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </div>
+            <div class="field-icon">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                id="user-name"
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field-input">
             <label for="user-phone" class="modal-label">Phone</label>
-              <div class="field-icon">
-                <input type="tel" name="user-phone" class="modal-input" id="user-phone" />
-                <svg class="modal-input-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-              </div>
+            <div class="field-icon">
+              <input
+                type="tel"
+                name="user-phone"
+                class="modal-input"
+                id="user-phone"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field-input">
             <label for="user-email" class="modal-label">Email</label>
-              <div class="field-icon">
-                <input type="email" name="user-email" class="modal-input" id="user-email" />
-                <svg class="modal-input-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-email-letter"></use>
-                </svg>
-              </div>
+            <div class="field-icon">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                id="user-email"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-letter"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field-textarea">
             <label for="user-text" class="modal-label">Comment</label>
-            <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Text input"></textarea>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-checkbox">
+            <input
+              type="checkbox"
+              name="accept_privacy_policy"
+              value="accept"
+              id="accept"
+              class="modal-check visually-hidden"
+              checked
+            />
+            <label for="accept" class="modal-label-text"
+              ><span class="accept-checkbox">
+                <svg class="accept-icon" width="10" height="8">
+                  <use href="./images/icons.svg#v-icon"></use>
+                </svg>
+              </span> I accept the terms and
+              conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="modal-btn-form">Send</button>
         </form>
